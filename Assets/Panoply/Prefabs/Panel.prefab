@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1016737787198673390}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100, y: 0, z: 0}
+  m_LocalPosition: {x: 600, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &1016737787198477262
 Camera:
@@ -48,18 +48,26 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00863061
-    y: 0.014563107
-    width: 0.9827388
-    height: 0.97087383
+    x: 0.005449591
+    y: 0.14950635
+    width: 0.9900091
+    height: 0.70098734
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 51.4249
+  field of view: 58.693203
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -136,14 +144,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 508.0656
+    pxRight: 1101
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1101
+    pxHeight: 508.0656
+    pxCenterH: 550.5
+    pxCenterV: 254.0328
     isEditing: 0
   frameStateB:
     id: State 1
@@ -182,14 +190,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 508.0656
+    pxRight: 1101
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1101
+    pxHeight: 508.0656
+    pxCenterH: 550.5
+    pxCenterV: 254.0328
     isEditing: 0
   cameraStateA:
     id: State 1
@@ -270,7 +278,7 @@ MonoBehaviour:
     multiplierVal: 0
     isEditing: 0
   startIndex: 0
-  scriptIndex: 0
+  scriptIndex: 10
   crossfade: 0
   progress: 0
   frameStates:
@@ -310,14 +318,14 @@ MonoBehaviour:
     borderColor: {r: 0, g: 0, b: 0, a: 1}
     widthCalcMethod: 2
     heightCalcMethod: 2
-    pxTop: 1030
-    pxRight: 1738
+    pxTop: 508.0656
+    pxRight: 1101
     pxBottom: 0
     pxLeft: 0
-    pxWidth: 1738
-    pxHeight: 1030
-    pxCenterH: 869
-    pxCenterV: 515
+    pxWidth: 1101
+    pxHeight: 508.0656
+    pxCenterH: 550.5
+    pxCenterV: 254.0328
     isEditing: 0
   frameStateScript:
   - (1) State 1
@@ -627,15 +635,15 @@ MonoBehaviour:
   disableCameraControl: 0
   frameRect:
     serializedVersion: 2
-    x: 15
-    y: 15
-    width: 1708
-    height: 1000
+    x: 6
+    y: 106
+    width: 1090
+    height: 497
   borderSize: 0
   borderColor: {r: 0, g: 0, b: 0, a: 1}
   matteColor: {r: 0, g: 0, b: 0, a: 0}
   camera: {fileID: 1016737787198477262}
-  homePosition: {x: 100, y: 0, z: 0}
+  homePosition: {x: 600, y: 0, z: 0}
   lookAtEnabled: 0
   frameStateCounter: 0
   cameraStateCounter: 0
